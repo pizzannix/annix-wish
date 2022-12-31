@@ -4,6 +4,8 @@ screen.setup(width=1.0, height=1.0)
 turtle.bgcolor('white')
 tr = turtle.Turtle()
 tr.speed("fastest")
+tr.up()
+#left decoration
 for i in range(10):
     for i in range(2):
         tr.pensize(7)
@@ -17,6 +19,8 @@ for i in range(10):
         tr.forward(50)
         tr.right(120)
     tr.right(30)
+tr.up()
+#right decoration
 for i in range(10):
     for i in range(2):
         tr.pensize(7)
@@ -30,6 +34,8 @@ for i in range(10):
         tr.forward(50)
         tr.right(120)
     tr.right(30)
+tr.up()
+#top decoration
 for i in range(10):
     for i in range(2):
         tr.pensize(7)
@@ -43,6 +49,8 @@ for i in range(10):
         tr.forward(50)
         tr.right(120)
     tr.right(30)
+tr.up()
+#bottom decoration
 for i in range(10):
     for i in range(2):
         tr.pensize(7)
@@ -56,6 +64,9 @@ for i in range(10):
         tr.forward(50)
         tr.right(120)
     tr.right(30)
+    
+    
+turtle.up()
 turtle.color('red')
 turtle.goto(-320, 40)
 turtle.write("Happy ",  font=(None, 60))
@@ -68,3 +79,4 @@ turtle.write("Year by annixpizz46",  font=(None, 60))
 turtle.goto(-74, -60)
 turtle.color('green')
 turtle.write("2023!", font=(None, 60))
+turtle.done()
